@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SpinnerGallery</string>
+    <string name="tip"> 请选择省份 </string>
+    <string name="book">book</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="books">
+        <item>疯狂android开发</item>
+        <item>Android深度探索</item>187787+698
+        <item>Python 指南</item>
+        <item>深入理解linux 内核</item>
+    </string-array>
+</resources>

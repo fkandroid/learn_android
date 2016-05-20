@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header
+        android:fragment="com.example.swolf.activitytest.PreferenceActivityTest$Prefs1Fragment"
+        android:title="选项设置"/>
+
+    <header
+        android:fragment="com.example.swolf.activitytest.PreferenceActivityTest$Prefs2Fragment"
+        android:title="界面选择项设置"
+        android:summary="设置显示界面的相关选项"/>
+
+    <header
+        android:icon="@mipmap/ic_launcher"
+        android:title="使用intent"
+        android:summary="使用intent">
+        <intent android:action="android.intent.action.VIEW"
+            android:data="http://www.163.com/"/>
+        </header>
+
+</preference-headers>
