@@ -13,7 +13,7 @@ import com.example.swolf.model.BookContent;
 /**
  * Created by swolf on 16/5/19.
  */
-public class BookDetailFragment extends Fragment {
+public class  BookDetailFragment extends Fragment {
     public static final String ITEM_ID = "item_id";
     BookContent.Book book;
 
@@ -22,7 +22,6 @@ public class BookDetailFragment extends Fragment {
         super.onCreate(savedInstanceState);
         if (getArguments().containsKey(ITEM_ID)) {
             book = BookContent.books.get(getArguments().getInt(ITEM_ID));
-
         }
     }
 
